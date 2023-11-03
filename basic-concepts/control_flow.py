@@ -72,9 +72,9 @@ while i < 10:
         continue
     print(i)
 
-################################################
-# Anidamiento de estructuras de control de flujo
-################################################
+#################################
+# Nesting flow control structures
+#################################
 print("### Example showing nested structures")
 
 for i in range(5):
@@ -82,7 +82,7 @@ for i in range(5):
         if (i % 2 == 0 and j % 3 == 0):
             print(f"i = {i}, j = {j}")
 
-# Imprime:
+# Prints:
 # i = 0, j = 0
 # i = 0, j = 3
 # i = 0, j = 6
@@ -96,9 +96,9 @@ for i in range(5):
 # i = 4, j = 6
 # i = 4, j = 9
 
-###################################
-# Patrones de uso comunes: búsqueda
-###################################
+#############################
+# Common use patterns: search
+#############################
 print("### Example of the use of the search pattern")
 
 fruits = ["apple", "orange"]
@@ -114,9 +114,9 @@ for fruit in fruits:
 if found:
     print("Fruit found!")
 
-######################################
-# Patrones de uso comunes: acumulación
-######################################
+###################################
+# Common use patterns: accumulation
+###################################
 print("### Example of using accumulation pattern")
 
 total = 0
@@ -124,4 +124,4 @@ total = 0
 for i in range(10):
     total += i
 
-print(total) # Sum from 0..9 = 45
+print(total)  # Sum from 0..9 = 45
